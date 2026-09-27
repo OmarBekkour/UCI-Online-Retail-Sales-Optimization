@@ -57,9 +57,9 @@ Provides time-series analytics and period-over-period comparison metrics using a
 
 ---
 
-## Data Architecture & Modeling
+## Data Architecture & Privacy
 
-To maintain strict data integrity and real-world scalability, the underlying model is built using standard enterprise analytics practices:
-* Star Schema Architecture: Dimensional tables (Customers, Products, Geography, Calendar) surrounding a centralized Transactional Fact Table.
-* Advanced DAX Measures: Standardized calculation groups for Time Intelligence, dynamic segmentation, and KPI aggregations.
-* Data Anonymization: Standard enterprise data structures applied to protect transactional confidentiality while preserving analytical rigor.
+To maintain strict transactional confidentiality while ensuring enterprise scalability, the underlying analytical model is built using industry-standard enterprise practices:
+* Star Schema Modeling: Structured dimensional tables (Customers, Products, Geography, Calendar) surrounding a centralized Transactional Fact Table for optimal query performance.
+* Advanced DAX Logic: Standardized calculation logic for Time Intelligence (YoY/MoM), dynamic customer segmentation, and aggregated commercial KPIs.
+* Data Anonymization & Privacy: Raw transactional identifiers and sensitivity-prone metrics are anonymized and structured to comply with enterprise data governance standards while preserving full analytical accuracy.
